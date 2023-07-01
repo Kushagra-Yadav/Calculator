@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=EB+Garamond&family=Playfair+Display:wght@500&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: large;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    padding:3rem;
+    box-shadow: 10px 8px 4px rgba(246, 9, 9, 0.282);
+    
+    justify-content: center;
+    text-align: center;
+    
+    width: 100%;
+    background: linear-gradient(45deg,rgb(21 17 17 / 97%) ,rgb(0 0 0 / 84%));
+}
+
+input{
+    width: 54vh;
+    height:18vh;
+    align-self:center;
+    background-color:rgb(30 27 27 / 76%);
+    border: none;
+    border-radius: 10px;
+    font-size:x-large;
+    text-align: right;
+    padding:1rem;
+    margin-bottom:1rem;
+    color: aliceblue;
+}
+button{
+    cursor: pointer;
+    width:10vh;
+    height:10vh;
+    border-radius: 50%;
+    margin:2vh;
+    color:white;
+    background-color: rgba(8, 8, 8, 0.12);
+    border:none;
+    box-shadow: -3px -2px 4px rgba(255, 255, 255, 0.282);
+}
+::placeholder{
+    color: aliceblue;
+}
+.operators{
+    color: rgba(109, 252, 109, 0.774);
+}
+.eqnBtn{
+    color: rgba(255, 166, 0, 0.854);
+    font-size: larger;
+}
+button:active{
+    box-shadow: 4px 4px 5px #58463c;
+}
